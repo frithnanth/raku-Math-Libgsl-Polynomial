@@ -20,7 +20,7 @@
   "resources" : [
     "libraries/gslhelper"
   ],
-  "source-url" : "git://github.com/frithnanth/perl6-Math-Libgsl-Polynomial.git",
+  "source-url" : "git://github.com/frithnanth/raku-Math-Libgsl-Polynomial.git",
   "tags" : [
     "math",
     "nativecall"
