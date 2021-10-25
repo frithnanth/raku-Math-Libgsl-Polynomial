@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Polynomial.svg?branch=master)](https://travis-ci.org/frithnanth/raku-Math-Libgsl-Polynomial)
+[![Actions Status](https://github.com/frithnanth/raku-Math-Libgsl-Polynomial/workflows/test/badge.svg)](https://github.com/frithnanth/raku-Math-Libgsl-Polynomial/actions)
 
 NAME
 ====
