@@ -9,7 +9,7 @@ void mgsl_poly_complex_eval(const double c[], const int len, const gsl_complex *
 
 void mgsl_complex_poly_complex_eval(gsl_complex **c, const int len, const gsl_complex *z, gsl_complex *ret)
 {
-  gsl_complex zc[len];
+  gsl_complex *zc = calloc(len, sizeof(gsl_complex));
   int i;
   for(i=0; i<len; i++) zc[i] = *c[i];
   *ret = gsl_complex_poly_complex_eval(zc, len, *z);
