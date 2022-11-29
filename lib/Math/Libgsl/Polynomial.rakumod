@@ -1,6 +1,6 @@
 use v6;
 
-unit module Math::Libgsl::Polynomial:ver<0.0.2>:auth<cpan:FRITH>;
+unit module Math::Libgsl::Polynomial:ver<0.0.2>:auth<zef:FRITH>;
 
 use Math::Libgsl::Raw::Polynomial :ALL;
 use Math::Libgsl::Exception;
@@ -113,7 +113,7 @@ Math::Libgsl::Polynomial - An interface to libgsl, the Gnu Scientific Library - 
 
 =head1 SYNOPSIS
 
-=begin code :lang<perl6>
+=begin code :lang<raku>
 
 use Math::Libgsl::Raw::Polynomial :ALL;
 

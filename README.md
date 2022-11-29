@@ -8,7 +8,7 @@ Math::Libgsl::Polynomial - An interface to libgsl, the Gnu Scientific Library - 
 SYNOPSIS
 ========
 
-```perl6
+```raku
 use Math::Libgsl::Raw::Polynomial :ALL;
 
 use Math::Libgsl::Polynomial :ALL;

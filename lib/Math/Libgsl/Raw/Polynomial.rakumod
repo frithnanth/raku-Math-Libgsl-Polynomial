@@ -1,15 +1,22 @@
 use v6;
 
-unit module Math::Libgsl::Raw::Polynomial:ver<0.0.2>:auth<cpan:FRITH>;
+unit module Math::Libgsl::Raw::Polynomial:ver<0.0.2>:auth<zef:FRITH>;
 
 use NativeCall;
-use LibraryMake;
 use Math::Libgsl::Raw::Complex;
 
 constant GSLHELPER = %?RESOURCES<libraries/gslhelper>.absolute;
 
 sub LIB {
-  run('/sbin/ldconfig', '-p', :chomp, :out).out.slurp(:close).split("\n").grep(/^ \s+ libgsl\.so\. \d+ /).sort.head.comb(/\S+/).head;
+  run('/sbin/ldconfig', '-p', :chomp, :out)
+    .out
+    .slurp(:close)
+    .split("\n")
+    .grep(/^ \s+ libgsl\.so\. \d+ /)
+    .sort
+    .head
+    .comb(/\S+/)
+    .head;
 }
 
 # Polynomial evaluation

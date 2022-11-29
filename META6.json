@@ -1,12 +1,21 @@
 {
-  "auth": "cpan:FRITH",
+  "auth": "zef:FRITH",
   "authors": [
     "Fernando Santagata"
   ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
   "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
   ],
+  "builder": "Distribution::Builder::MakeFromJSON",
   "depends": [
-    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
     "Math::Libgsl::Complex",
     "Math::Libgsl::Constants"
   ],
