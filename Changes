@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Polynomial
 
 {{$NEXT}}
+
+0.0.3  2022-11-29T21:36:00+01:00
     - Use zef ecosystem
     - Use Distribution::Builder::MakeFromJSON to compile resources
 
