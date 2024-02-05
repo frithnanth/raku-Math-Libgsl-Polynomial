@@ -5,7 +5,7 @@ unit module Math::Libgsl::Raw::Polynomial:ver<0.0.3>:auth<zef:FRITH>;
 use NativeCall;
 use Math::Libgsl::Raw::Complex;
 
-constant GSLHELPER = %?RESOURCES<libraries/gslhelper>.absolute;
+constant GSLHELPER = %?RESOURCES<libraries/gslhelper>;
 
 sub LIB {
   run('/sbin/ldconfig', '-p', :chomp, :out)
