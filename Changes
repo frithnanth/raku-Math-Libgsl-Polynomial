@@ -1,6 +1,8 @@
 Revision history for Math-Libgsl-Polynomial
 
 {{$NEXT}}
+
+0.0.4  2024-02-05T11:27:48Z
     - Drop the obsolete .absolute call :-)
 
 0.0.3  2022-11-29T21:36:00+01:00
